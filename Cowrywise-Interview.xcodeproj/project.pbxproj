@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48D411B0DEEAB93E9F4DA36D /* Pods_Cowrywise_Interview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9BEACEAC69E0BF0B0F1C44 /* Pods_Cowrywise_Interview.framework */; };
+		98EF6A43F83F02CFA26B476C /* Pods_Cowrywise_InterviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60525AED44972769376C84C8 /* Pods_Cowrywise_InterviewTests.framework */; };
 		DE25A1AF2A652F5000C422DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25A1AE2A652F5000C422DC /* AppDelegate.swift */; };
-		DE25A1B12A652F5000C422DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25A1B02A652F5000C422DC /* SceneDelegate.swift */; };
-		DE25A1B32A652F5000C422DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25A1B22A652F5000C422DC /* ViewController.swift */; };
 		DE25A1B62A652F5000C422DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE25A1B42A652F5000C422DC /* Main.storyboard */; };
 		DE25A1B92A652F5000C422DC /* Cowrywise_Interview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE25A1B72A652F5000C422DC /* Cowrywise_Interview.xcdatamodeld */; };
 		DE25A1BB2A652F5600C422DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE25A1BA2A652F5600C422DC /* Assets.xcassets */; };
@@ -28,10 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FFA419989DD4C9738ABAE30 /* Pods-Cowrywise-Interview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cowrywise-Interview.release.xcconfig"; path = "Target Support Files/Pods-Cowrywise-Interview/Pods-Cowrywise-Interview.release.xcconfig"; sourceTree = "<group>"; };
+		60525AED44972769376C84C8 /* Pods_Cowrywise_InterviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cowrywise_InterviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6130629072D1EB1ECF9D9A2C /* Pods-Cowrywise-InterviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cowrywise-InterviewTests.debug.xcconfig"; path = "Target Support Files/Pods-Cowrywise-InterviewTests/Pods-Cowrywise-InterviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9BEACEAC69E0BF0B0F1C44 /* Pods_Cowrywise_Interview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cowrywise_Interview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06F824A4D0D75D31F831612 /* Pods-Cowrywise-Interview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cowrywise-Interview.debug.xcconfig"; path = "Target Support Files/Pods-Cowrywise-Interview/Pods-Cowrywise-Interview.debug.xcconfig"; sourceTree = "<group>"; };
+		D217BD5A2EE7F22470C68764 /* Pods-Cowrywise-InterviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cowrywise-InterviewTests.release.xcconfig"; path = "Target Support Files/Pods-Cowrywise-InterviewTests/Pods-Cowrywise-InterviewTests.release.xcconfig"; sourceTree = "<group>"; };
 		DE25A1AB2A652F5000C422DC /* Cowrywise-Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cowrywise-Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE25A1AE2A652F5000C422DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE25A1B02A652F5000C422DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE25A1B22A652F5000C422DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE25A1B52A652F5000C422DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE25A1B82A652F5000C422DC /* Cowrywise_Interview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cowrywise_Interview.xcdatamodel; sourceTree = "<group>"; };
 		DE25A1BA2A652F5600C422DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D411B0DEEAB93E9F4DA36D /* Pods_Cowrywise_Interview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EF6A43F83F02CFA26B476C /* Pods_Cowrywise_InterviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		686CB61DD723215B24553D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D06F824A4D0D75D31F831612 /* Pods-Cowrywise-Interview.debug.xcconfig */,
+				3FFA419989DD4C9738ABAE30 /* Pods-Cowrywise-Interview.release.xcconfig */,
+				6130629072D1EB1ECF9D9A2C /* Pods-Cowrywise-InterviewTests.debug.xcconfig */,
+				D217BD5A2EE7F22470C68764 /* Pods-Cowrywise-InterviewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DE25A1A22A652F5000C422DC = {
 			isa = PBXGroup;
 			children = (
 				DE25A1AD2A652F5000C422DC /* Cowrywise-Interview */,
 				DE25A1C72A652F5600C422DC /* Cowrywise-InterviewTests */,
 				DE25A1AC2A652F5000C422DC /* Products */,
+				686CB61DD723215B24553D61 /* Pods */,
+				EBC6A1FAD2FC06A0943697D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +100,11 @@
 		DE25A1AD2A652F5000C422DC /* Cowrywise-Interview */ = {
 			isa = PBXGroup;
 			children = (
+				DE25A1D62A6585B000C422DC /* Views */,
+				DE25A1D52A6583C000C422DC /* Entities */,
+				DE25A1D42A6583B800C422DC /* Presentation */,
+				DE25A1D32A6583A800C422DC /* Services */,
 				DE25A1AE2A652F5000C422DC /* AppDelegate.swift */,
-				DE25A1B02A652F5000C422DC /* SceneDelegate.swift */,
-				DE25A1B22A652F5000C422DC /* ViewController.swift */,
 				DE25A1B42A652F5000C422DC /* Main.storyboard */,
 				DE25A1BA2A652F5600C422DC /* Assets.xcassets */,
 				DE25A1BC2A652F5600C422DC /* LaunchScreen.storyboard */,
@@ -102,6 +123,43 @@
 			path = "Cowrywise-InterviewTests";
 			sourceTree = "<group>";
 		};
+		DE25A1D32A6583A800C422DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE25A1D42A6583B800C422DC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DE25A1D52A6583C000C422DC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DE25A1D62A6585B000C422DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBC6A1FAD2FC06A0943697D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9BEACEAC69E0BF0B0F1C44 /* Pods_Cowrywise_Interview.framework */,
+				60525AED44972769376C84C8 /* Pods_Cowrywise_InterviewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25A1CD2A652F5600C422DC /* Build configuration list for PBXNativeTarget "Cowrywise-Interview" */;
 			buildPhases = (
+				940F4D535FF770CDAF75551C /* [CP] Check Pods Manifest.lock */,
 				DE25A1A72A652F5000C422DC /* Sources */,
 				DE25A1A82A652F5000C422DC /* Frameworks */,
 				DE25A1A92A652F5000C422DC /* Resources */,
+				2C1AE806510E1EDBDC58FF61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE25A1D02A652F5600C422DC /* Build configuration list for PBXNativeTarget "Cowrywise-InterviewTests" */;
 			buildPhases = (
+				6B986FFD39EC0CE7B819C7F6 /* [CP] Check Pods Manifest.lock */,
 				DE25A1C02A652F5600C422DC /* Sources */,
 				DE25A1C12A652F5600C422DC /* Frameworks */,
 				DE25A1C22A652F5600C422DC /* Resources */,
@@ -198,15 +259,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C1AE806510E1EDBDC58FF61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cowrywise-Interview/Pods-Cowrywise-Interview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cowrywise-Interview/Pods-Cowrywise-Interview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cowrywise-Interview/Pods-Cowrywise-Interview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B986FFD39EC0CE7B819C7F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cowrywise-InterviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940F4D535FF770CDAF75551C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cowrywise-Interview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE25A1A72A652F5000C422DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE25A1B92A652F5000C422DC /* Cowrywise_Interview.xcdatamodeld in Sources */,
-				DE25A1B32A652F5000C422DC /* ViewController.swift in Sources */,
 				DE25A1AF2A652F5000C422DC /* AppDelegate.swift in Sources */,
-				DE25A1B12A652F5000C422DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +487,7 @@
 		};
 		DE25A1CE2A652F5600C422DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06F824A4D0D75D31F831612 /* Pods-Cowrywise-Interview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +506,7 @@
 		};
 		DE25A1CF2A652F5600C422DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFA419989DD4C9738ABAE30 /* Pods-Cowrywise-Interview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,6 +525,7 @@
 		};
 		DE25A1D12A652F5600C422DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6130629072D1EB1ECF9D9A2C /* Pods-Cowrywise-InterviewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +548,7 @@
 		};
 		DE25A1D22A652F5600C422DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D217BD5A2EE7F22470C68764 /* Pods-Cowrywise-InterviewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
